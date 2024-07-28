@@ -1,0 +1,449 @@
+*{
+    font-family: "Merriweather", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#goT{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#goT:hover{
+    color: green;
+}
+nav{
+    background-color: rgb(50, 50, 175)
+}
+#navbarSupportedContent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbarSupportedContent1 li:hover{
+    border: 1px solid rgb(82, 0, 214);
+    background-color: rgb(69, 40, 196);
+}
+#navbarSupportedContent2 li:hover{
+    border: 1px solid rgb(82, 0, 214);
+    background-color: rgb(69, 40, 196);
+}
+#regibut:hover{
+    background-color: blue;
+    color: white;
+    border-color: blueviolet;
+}
+#signbut:hover{
+    background-color: blue;
+    color: white;
+    border-color: blueviolet;
+}
+#signbut:hover{
+    background-color: blue;
+    color: white;
+    border-color: blueviolet;
+}
+#btnnn:hover{
+    
+    color: rgb(255, 255, 255);
+}
+
+#serbutton:hover{
+    background-color: rgb(63, 106, 248);
+    color: black;
+}
+@media(min-width:992px){
+    #main2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media(max-width:992px){
+    #navbarSupportedContent2{
+        display: none;
+    }
+}
+@media(min-width:992px){
+    #hidee{
+        display: none;
+    }
+}
+#explore a:hover{
+    color: green;
+}
+#mumchen h4:hover{
+    color: black;
+}
+#newbang h4:hover{
+    color: black;
+}
+#main{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://www.sushanttravels.com/blog/2019/11/1573491420.jpg);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bla{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+#holidays h1{
+    font-size: 75px;
+    font-weight: bolder;
+    color: white;
+    
+}
+#holidays h4{
+    font-size: 40px;
+    color: white;
+}
+#holidays{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+@media(max-width:600px){
+    #main{
+        background-position: right;
+        
+    }
+
+    #holidays h4{
+        font-size: 20px;
+    }
+    #holidays h1{
+        font-size: 35px;
+    }
+}
+#alll{
+    /* height: 50px; */
+    /* background-color: orange; */
+
+}
+@media(min-width:768px){
+    #alll{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#aaaaa input{
+    width: 100%;
+}
+#date1 :placeholder-shown{
+    text-align: left;
+}
+@media(max-width:600px){
+    #looking{
+        padding-top: 10px;
+        margin-left: 1px;
+    }
+}
+@media(max-width:576px){
+    #alll{
+        height: 170px;
+        
+        border-radius: 2%;
+        background-color: rgb(98, 143, 98);
+        
+
+        
+    }
+}
+@media(max-width:576px){
+    #where{
+        margin-top: 5px;
+        width: 100%;
+        
+        
+    }
+}
+@media(max-width:576px){
+    #check_in{
+        margin-top: 5px;
+        width: 95%;
+        
+    }
+}
+@media(max-width:576px){
+    #costmr{
+        margin-top: 5px;
+        width: 95%;
+        
+    }
+}
+@media(max-width:576px){
+    #serbutton{
+        margin-top: 5px;
+        width: 93%;
+        
+    }
+}
+#flyaway{
+    height: 175px;
+}
+#flitimg{
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 75%;
+    margin-top: -20%;
+    
+}
+#flittt h5{
+    font-weight: bold;
+}
+#seize{
+    background-image: url(./images/honeymoon-in-Mexico-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width:576px){
+    #flitimg{
+        width: 75px;
+        height: 75px;
+    }
+    
+}
+@media(max-width:576px){
+    #flittt h5{
+        font-size: 15px;
+    }
+    #flittt p{
+        font-size: 10px;
+    }
+    #flittt button{
+        font-size: 10px;
+    }
+}
+@media(max-width:576px){
+    #seize button{
+        font-size: 10px;
+    }
+    #seize h5{
+        font-size: 15px;
+    }
+    #seize p{
+        font-size: 10px;
+    }
+}
+#main2{
+    /* height:100vh; */
+}
+#browse{
+    margin-top: 30%;
+    margin-left: 0%;
+}
+#bangl{
+    position: relative;
+    
+}
+#bangl img{
+    position: absolute;
+    width: 100%;
+}
+#bangl h4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+#newdel{
+    position: relative;
+    
+}
+#newdel img{
+    position: absolute;
+    width: 100%;
+}
+#newdel h4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+#newbang{
+    height: 350px;
+}
+#mumchen{
+    height: 350px;
+}
+#mumbai{
+    position: relative;
+    
+}
+#mumbai img{
+    position: absolute;
+    width: 100%;
+}
+#mumbai h4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+#chennai{
+    position: relative;
+    
+}
+#chennai img{
+    position: absolute;
+    width: 100%;
+}
+#chennai h4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+#hyderabad{
+    position: relative;
+    
+}
+#hyderabad img{
+    position: absolute;
+    width: 100%;
+}
+#hyderabad h4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+#explore p{
+    font-size: 12px;
+}
+@media(min-width:992px){
+    #destinations{
+        height: 400px;
+    }
+    #instant{
+        height: 250px;
+    }
+}
+#globalmap{
+    background-image: url(https://i.pinimg.com/originals/ca/db/f0/cadbf02093dd8e7b4c9e74107ba7b27a.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+media(min-width:992px){
+    #footer1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+#footeraa{
+    /* height: 330px; */
+}
+#footeraa p a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    
+    
+}
+#footeraa{
+    /* height: 330px; */
+}
+
+
+@media(min-width:992px){
+    #footeraa p{
+        margin-top: -3%;
+        font-size: 12px;
+    }
+}
+@media(max-width:992px){
+    #footeraa p{
+        
+        font-size: 8px;
+    }
+}
+
+#footeraa h6 a{
+    color: black;
+    text-decoration: none;
+}
+#endsec{
+    background-color: rgb(243, 243, 243);
+}
+#horz{
+    width: 100%;
+    border: 1px solid rgb(196, 194, 194);
+
+}
+#copyrightt{
+    /* border: 1px solid blue; */
+}
+#copyrightt p{
+    font-size: 10px;
+    text-align: center;
+}
+.logosss{
+    /* border: 1px solid blue; */
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#testingg{
+    width: 100%;
+    height: 100px;
+}
+@media(max-width:992px){
+    #globimgg{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        
+    }
+    #instant button{
+        margin-bottom: 5px;
+    }
+}
+.logosss:hover img{
+    animation: anime 0.25s infinite;
+
+}
+@keyframes anime{
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        /* transform: rotateX(100px); */
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        /* transform: rotateX(100px); */
+    }
+}
+
+#globimgg:hover img{
+    animation: anima2 0.99s infinite;
+
+}
+@keyframes anima2{
+    25%{
+        transform: rotateY(45deg);
+    }
+   /*  50%{
+        transform: rotateX(100px);
+    }
+    75%{
+        transform: rotate(-45deg);
+    } */
+    100%{
+        transform: rotateY(100px);
+    }
+}
